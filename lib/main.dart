@@ -519,7 +519,7 @@ class _MainPageState extends State<MainPage> {
             child: Center(
               child: Text(
                 bandeirasPaises[bandeira]!,
-                style: TextStyle(color: Colors.lightBlue, fontSize: 25),
+                style: TextStyle(color: Colors.green, fontSize: 25),
               ),
             ),
           ),
@@ -528,10 +528,10 @@ class _MainPageState extends State<MainPage> {
           ),
           OutlinedButton(
             style: OutlinedButton.styleFrom(
-              side: BorderSide(width: 1.0, color: Colors.lightBlue),
+              side: BorderSide(width: 1.0, color: Colors.green),
               shape: RoundedRectangleBorder(
                 side: BorderSide(
-                    color: Colors.lightBlue, style: BorderStyle.solid),
+                    color: Colors.green, style: BorderStyle.solid),
                 borderRadius: BorderRadius.circular(50),
               ),
             ),
@@ -544,7 +544,7 @@ class _MainPageState extends State<MainPage> {
               padding: EdgeInsets.all(10),
               child: Text(
                 "Trocar de País",
-                style: TextStyle(color: Colors.lightBlue, fontSize: 20),
+                style: TextStyle(color: Colors.green, fontSize: 20),
               ),
             ),
           ),
